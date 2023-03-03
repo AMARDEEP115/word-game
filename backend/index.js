@@ -39,9 +39,10 @@ app.listen(process.env.port || 3000,async()=>{
     try{
         await connection;
         console.log("Connected to DB");
+        console.log(`server is running at port ${process.env.port || 3000}`);
     } catch(err){
         console.log(err);
         console.log("Not connected to DB");
+        console.log(`server is running at port ${process.env.port || 3000}`);
     }
-    console.log(`server is running at port ${process.env.port || 3000}`);
 });
