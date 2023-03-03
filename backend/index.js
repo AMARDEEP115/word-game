@@ -35,14 +35,14 @@ app.get("/random",(req,res)=>{
 
 app.use("/game",userRouter);
 
-app.listen(process.env.port || 3000,async()=>{
+app.listen(process.env.port,async()=>{
     try{
         await connection;
         console.log("Connected to DB");
-        console.log(`server is running at port ${process.env.port || 3000}`);
+        console.log(`server is running at port ${process.env.port}`);
     } catch(err){
         console.log(err);
         console.log("Not connected to DB");
-        console.log(`server is running at port ${process.env.port || 3000}`);
+        console.log(`server is running at port ${process.env.port}`);
     }
 });
