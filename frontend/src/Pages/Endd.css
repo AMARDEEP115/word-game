@@ -1,0 +1,145 @@
+#Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+#Nav>a{
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#Ed{
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Ed>img{
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+#End{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: auto;
+    margin-top: 7vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#End>h1{
+    text-align: left;
+    width: 50%;
+}
+#End>h1{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    margin-left: 40px;
+}
+#End>h1>span{
+    color: green;
+}
+
+#End button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(0, 140, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 474px) and (max-width: 768px){
+    #Nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border: 3px solid teal;
+        padding: 7px;
+    }
+    #Nav>a{
+        font-size: 20px;
+    }
+    #Ed{
+        padding-bottom: 30px;
+    }
+    #End{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px;
+        border-radius: 10px;
+        width: 50%;
+        margin-left: 22%;
+    }
+    #Ed>img{
+        margin: auto;
+    }
+    #End>h1{
+        text-align: left;
+        font-size: 24px;
+        width: 80%;
+        margin-left: 10px;
+    }
+    #End button{
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: rgb(0, 140, 255);
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: .8rem;
+    }    
+}
+
+@media screen and (min-width: 0px) and (max-width: 474px){
+    #Nav{
+        width: 132%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border: 3px solid teal;
+        padding: 7px;
+    }
+    #Nav>a{
+        font-size: 20px;
+    }
+    #Ed{
+        padding-bottom: 30px;
+    }
+    #End{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        margin-left: 30%;
+    }
+    #End>h1{
+        text-align: left;
+        font-size: 24px;
+        width: 80%;
+        margin-left: 10px;
+    }
+    #End button{
+        height: 30px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: rgb(0, 140, 255);
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: .8rem;
+    }    
+}

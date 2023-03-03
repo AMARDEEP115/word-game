@@ -1,0 +1,143 @@
+#Subb>input{
+    padding-left: 20px;
+}
+
+#Key{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+    width: 62%;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+#Key>div{
+    display: flex;
+    gap: 20px;
+}
+#Key>div>button{
+    background-color: rgb(60, 56, 56);
+    color: aqua;
+    height: 30px;
+    border-radius: 7px;
+}
+.btnKey{
+    width: 60px;
+}
+#Space{
+    width: 300px;
+}
+.EnSh{
+    width: 140px;
+}
+
+
+#Inp{
+    height: 40px;
+    width: 500px;
+}
+
+#Subb{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 40%;
+    margin: auto;
+}
+#Subb>button{
+    height: 43px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+#NextBtn{
+    border-radius: 10px;
+    background-color: rgb(0, 140, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#WorTim{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+
+#WorDs{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+@media screen and (min-width: 474px) and (max-width: 768px){
+    #Key{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: black;
+        padding: 20px;
+        width: 62%;
+        margin: auto;
+        margin-top: 35px;
+        border-radius: 10px;
+    }
+    #Key>div{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 474px){
+    #Key{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: black;
+        width: 115%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 35px;
+        border-radius: 10px;
+    }
+    #Key>div{
+        display: flex;
+        gap: 5px;
+    }
+    .btnKey{
+        width: 40px;
+    }
+    #Space{
+        width: 300px;
+    }
+    .EnSh{
+        width: 140px;
+    }
+    #Key>div>button{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+    }
+    #Subb>input{
+        display: block;
+        margin: auto;
+        font-size: 1rem;
+    }
+    #Subb>button{
+        height: 33px;
+        width: 100px;
+        display: block;
+        margin-left: 45%;
+    }
+    #WorTim{
+        margin-left: 10%;
+        font-size: 15px;
+    }
+}

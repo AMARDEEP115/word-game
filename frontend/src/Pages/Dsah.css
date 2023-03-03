@@ -1,0 +1,61 @@
+#Dsh{
+    padding-top: 20px;
+}
+
+#DshA{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid teal;
+    height: 60px;
+    align-items: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#Players{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+#Players>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#Players>div>h3{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin-left: 40px;
+}
+
+#Players>div>h3>span{
+    color: green;
+}
+
+@media screen and (min-width: 0px) and (max-width: 474px){
+    #Players>div{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #Players>div>h3{
+        margin-left: 10px;
+    }
+    #DshA{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        border: 3px solid teal;
+        padding: 10px;
+    }
+}

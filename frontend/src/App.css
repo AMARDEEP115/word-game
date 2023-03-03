@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+#Theam{
+  margin-left: 95%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 0px) and (max-width: 474px) {
+  #Theam{
+    margin-left: 90%;
+    margin-top: 10px;
+  }
+}
